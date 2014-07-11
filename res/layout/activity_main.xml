@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+	<Button 
+	    android:id="@+id/rssZhangId"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="炼似春秋"
+	    />
+	<Button 
+	    android:id="@+id/rssYuanId"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/rssZhangId"
+	    android:layout_height="wrap_content"
+	    android:text="得意阳阳"
+	    />
+	<Button 
+	    android:id="@+id/rssCoolId"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/rssYuanId"
+	    android:layout_height="wrap_content"
+	    android:text="CoolShell"
+	    />
+	
+</RelativeLayout>
